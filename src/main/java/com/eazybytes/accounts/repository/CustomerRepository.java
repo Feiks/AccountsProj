@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.repositry;
+package com.eazybytes.accounts.repository;
 
 import com.eazybytes.accounts.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
