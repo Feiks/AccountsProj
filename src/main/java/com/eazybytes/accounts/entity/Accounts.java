@@ -10,13 +10,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Accounts extends BaseEntity {
-    @Column(name = "customer_id")
-    private Long customerId;
-
-    @Column(name = "account_number")
     @Id
+    @Column(name = "account_number")
     private Long accountNumber;
 
+    @Column(name = "customer_id")
+    private Long customerId;
     private String accountType;
     private String branchAddress;
 
